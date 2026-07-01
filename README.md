@@ -9,6 +9,14 @@ deposit and account operations, lending, interbank messaging, clearing and
 settlement — run by a qualified operator so a community never surrenders its
 money and ledgers to a closed SaaS.
 
+## Robotics premise
+
+All cloud-itonami verticals are designed on the premise that a **robot performs
+the physical domain work**. Here a vault-servicing and cash-handling robot handles the physical movement and custody of value under an actor that proposes
+actions and an independent **Monetary Intermediation Governor** that gates them. The governor never
+dispatches hardware itself; `:high`/`:safety-critical` actions require
+human sign-off.
+
 ## Core Contract
 
 ```text
