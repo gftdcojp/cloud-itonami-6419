@@ -1,0 +1,16 @@
+<html><head><meta charset="utf-8"><title>cloud-itonami · banking</title><style>table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.ok { color: #137a3f; }
+body { font-family: system-ui,-apple-system,sans-serif; margin: 0; color: #1a1a1a; background: #fafafa; }
+header.bar { display: flex; align-items: center; gap: 12px; padding: 12px 20px; background: #fff; border-bottom: 1px solid #e5e5e5; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #f0f0f0; }
+h2 { margin-top: 0; font-size: 15px; }
+td.amt { font-variant-numeric: tabular-nums; text-align: right; }
+.warn { color: #b25c00; background: #fff8e1; padding: 2px 6px; border-radius: 4px; }
+main { max-width: 980px; margin: 24px auto; padding: 0 20px; }
+header.bar h1 { font-size: 18px; margin: 0; font-weight: 600; }
+.muted { color: #888; }
+.critical { color: #fff; background: #b3261e; padding: 2px 6px; border-radius: 4px; font-weight: 600; }
+.card { background: #fff; border: 1px solid #e5e5e5; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+.err { color: #b3261e; background: #fbe9e7; padding: 2px 6px; border-radius: 4px; }
+th { font-weight: 600; color: #555; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+header.bar .badge { margin-left: auto; font-size: 12px; color: #666; }</style></head><body><header class="bar"><h1>Community Banking — Operator Console</h1><span class="badge">read-only · governor-gated</span></header><main><section class="card"><h2>Accounts</h2><table><thead><tr><th>Account</th><th>Holder</th><th>Type</th><th class="amt">Balance</th></tr></thead><tbody><tr><td>A1</td><td>Acme</td><td>checking</td><td class="amt">0 USD</td></tr><tr><td>A2</td><td>Beta Co</td><td>savings</td><td class="amt">0 EUR</td></tr></tbody></table></section><section class="card"><h2>Recent postings</h2><table><thead><tr><th>Posting</th><th>Entries</th><th>Status</th><th>Memo</th></tr></thead><tbody><tr><td>P1</td><td>2</td><td><span class="ok">balanced</span></td><td>balanced</td></tr><tr><td>P2</td><td>2</td><td><span class="err">unbalanced</span></td><td>needs review</td></tr></tbody></table></section><section class="card"><h2>Clearing batches</h2><table><thead><tr><th>Batch</th><th>Postings</th><th>Currency</th><th>Status</th></tr></thead><tbody><tr><td>C1</td><td>0</td><td>USD</td><td>pending</td></tr></tbody></table></section></main></body></html>

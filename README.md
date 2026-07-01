@@ -32,6 +32,8 @@ double-entry ledger + SWIFT/ISO 20022 envelope + clearing batch + audit
 No automated advice can post an unbalanced entry, release a settlement, or
 send an interbank message without governor approval and audit evidence.
 
+A live sample of the operator console is rendered in [docs/samples/operator-console.html](docs/samples/operator-console.html) — pure-data HTML output of `kotoba.banking.ui`.
+
 ## Capability layer
 
 This blueprint resolves its technology stack via
